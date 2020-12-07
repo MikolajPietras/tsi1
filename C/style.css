@@ -31,7 +31,8 @@ header img {
 }
 
 aside {
-    float:right;
+    float:left;
+    width: 30%;
     margin:0 0 25px;
 }
 
@@ -56,7 +57,8 @@ aside nav ul li a:hover{
 }
 
 #strona {
-    float:left;
+    float:right;
+    width:65%;
     margin:0 0 25px;
 }
 
@@ -85,7 +87,7 @@ footer {
 @media (max-width: 800px)  {
 	.container {width:450px;}
 	aside,
-	#strona {width:100%;}
+    #strona {width:100%;}
 }
 @media (max-width: 500px) {
 	.container {width:90%;}
